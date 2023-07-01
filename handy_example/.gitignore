@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/handy
+handy.so
+handy.dylib
+handy.dll
+handy.a
+handy.lib
+handy-test-*
+*.exe
+*.o
+*.obj
+*.lst

@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/lighttp
+lighttp.so
+lighttp.dylib
+lighttp.dll
+lighttp.a
+lighttp.lib
+lighttp-test-*
+*.exe
+*.o
+*.obj
+*.lst

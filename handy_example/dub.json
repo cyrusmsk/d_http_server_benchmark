@@ -1,0 +1,12 @@
+{
+	"authors": [
+		"Sergei Giniatulin"
+	],
+	"copyright": "Copyright © 2023, Sergei Giniatulin",
+	"dependencies": {
+		"handy-httpd": "~>7.1.0"
+	},
+	"description": "A minimal D application.",
+	"license": "proprietary",
+	"name": "server"
+}

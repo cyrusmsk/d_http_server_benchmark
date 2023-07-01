@@ -1,0 +1,13 @@
+{
+	"authors": [
+		"Sergei Giniatulin"
+	],
+	"copyright": "Copyright © 2023, Sergei Giniatulin",
+	"dependencies": {
+		"archttp": "~>1.1.1",
+		"mir-cpuid": "~>1.2.10"
+	},
+	"description": "A minimal D application.",
+	"license": "proprietary",
+	"name": "server"
+}

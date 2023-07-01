@@ -1,0 +1,12 @@
+{
+	"fileVersion": 1,
+	"versions": {
+		"archttp": "1.1.1",
+		"colorize": "1.0.5",
+		"geario": "0.1.0",
+		"mir-core": "1.5.5",
+		"mir-cpuid": "1.2.10",
+		"nbuff": "0.1.14",
+		"unit-threaded": "0.10.8"
+	}
+}
