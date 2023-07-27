@@ -14,9 +14,7 @@ void handler(Cgi cgi) {
         cgi.write("", true);
 }
 
-//mixin GenericMain!handler;
 void main() {
     auto server = RequestServer(3000);
-    server.useFork = false;
     server.serve!handler;
 }
