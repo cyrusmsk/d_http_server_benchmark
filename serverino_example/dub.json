@@ -1,0 +1,10 @@
+{
+	"authors": [
+		"Sergei Giniatulin"
+	],
+	"dependencies": {
+		"serverino": "~>0.4.5"
+	},
+	"license": "proprietary",
+	"name": "server"
+}
