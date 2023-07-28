@@ -1,36 +1,28 @@
 module app;
 
 import serverino;
-import std.experimental.logger : info, log, warning, critical;
+import std.parallelism: totalCPUs;
+import std.array: split;
+import std.algorithm: startsWith;
 
 mixin ServerinoMain;
 
-// Optional. This is used to config serverino.
-// See: https://serverino.dpldocs.info/serverino.config.ServerinoConfig.html
 @onServerInit ServerinoConfig configure()
 {
 	return ServerinoConfig
 		.create()
-   		.addListener("0.0.0.0", 8080)
-		.setWorkers(4);
+   		.addListener("0.0.0.0", 3000)
+		.setWorkers(totalCPUs);
 }
 
-/*
-// Optional. If you need to init db connection or anything else on each worker
-// See: https://github.com/trikko/serverino#onworkerstart-onworkerstop-udas
-@onWorkerStart void start()
-{
-	// db = connect_to_db(...);
-}
-*/
-
-
-// If you need more than one endpoint, use @endpoint and (optionally) @priority
-// See: https://github.com/trikko/serverino#defining-more-than-one-endpoint
-void dump(Request request, Output output)
-{
-	// Probably you want to delete this spam.
-	info("Hello, log! There's a new incoming request. Url: ", request.uri);
-
-	output ~= request.dump(true);
+@safe
+@endpoint void hello(Request req, Output output) {
+    if (req.uri == "/" && req.method == Request.Method.Get)
+        output ~= "";
+    else if (req.uri == "/user" && req.method == Request.Method.Post)
+        output ~= "";
+    else {
+        if (req.uri.startsWith("/user/") && req.method == Request.Method.Get)
+            output ~= req.uri.split("/user/")[1];
+    }
 }
