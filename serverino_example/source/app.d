@@ -11,11 +11,10 @@ mixin ServerinoMain;
 {
 	return ServerinoConfig
 		.create()
-   		.addListener("0.0.0.0", 3000)
-		.setWorkers(totalCPUs);
+   		.addListener("127.0.0.1", 3000)
+		.setWorkers(16);
 }
 
-@safe
 @endpoint void hello(Request req, Output output) {
     if (req.uri == "/" && req.method == Request.Method.Get)
         output ~= "";

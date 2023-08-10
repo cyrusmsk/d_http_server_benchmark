@@ -6,6 +6,7 @@
 	"dependencies": {
 		"handy-httpd": "~>7.1.0"
 	},
+    "dflags-ldc": ["-mcpu=native"],
 	"description": "A minimal D application.",
 	"license": "proprietary",
 	"name": "server"
