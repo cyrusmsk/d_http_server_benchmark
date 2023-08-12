@@ -5,7 +5,6 @@ void main() {
     ServerConfig cfg = ServerConfig.defaultValues();
     cfg.workerPoolSize = 100;
     cfg.port = 3000;
-    cfg.reuseAddress = true;
 
     import slf4d;
     import slf4d.default_provider;
