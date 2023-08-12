@@ -11,9 +11,9 @@ mixin ServerinoMain;
 {
 	return ServerinoConfig
 		.create()
-   		.addListener("127.0.0.1", 3000)
+   		.addListener("0.0.0.0", 3000)
         .enableKeepAlive()
-		.setWorkers(16);
+		.setWorkers(totalCPUs);
 }
 
 @endpoint void hello(Request req, Output output) {

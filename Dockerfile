@@ -1,23 +1,22 @@
-FROM debian:bookworm AS build
+FROM alpine:3.18 AS build
 
-RUN apt-get -qq update
-RUN apt-get -qy install build-essential wget openssl ldc dub libssl-dev zlib1g-dev
+RUN apk add --no-cache ldc gcc dub musl-dev llvm-libunwind-static llvm15 openssl
 
-RUN mkdir /usr/src/app
+RUN mkdir /home/app
 
-ADD handy_example /usr/src/app
+ADD archttp_example /home/app
 
-WORKDIR /usr/src/app
+WORKDIR /home/app
 
 ENV DC=ldc2
-RUN dub build -b release --compiler=ldc2 --verbose
+RUN dub build -b release-nobounds --compiler=ldc2 --verbose
 
-FROM debian:bookworm
+FROM alpine:3.18
 
 WORKDIR /opt/web
 
-RUN apt-get -qq update && apt-get -qy install openssl wget ldc
+RUN apk add --no-cache ldc llvm-libunwind-static llvm15 openssl
 
-COPY --from=build /usr/src/app/server /opt/web/server
+COPY --from=build /home/app/server /opt/web/server
 
 CMD /opt/web/server

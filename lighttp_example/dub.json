@@ -6,7 +6,7 @@
 	"dependencies": {
 		"lighttp": "~>0.5.4"
 	},
-    "dflags-ldc": ["-mcpu=native"],
+    "dflags-ldc": ["-mcpu=native", "-flto=thin"],
 	"description": "A minimal D application.",
 	"license": "proprietary",
 	"name": "server"
