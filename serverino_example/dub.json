@@ -5,7 +5,7 @@
 	"dependencies": {
 		"serverino": "~>0.4.5"
 	},
-    "dflags-ldc": ["-mcpu=native"],
+    "dflags-ldc": ["-mcpu=native", "-flto=thin", "-flto-binary=/usr/lib/LLVMgold.so"],
 	"license": "proprietary",
 	"name": "server"
 }
