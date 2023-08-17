@@ -5,7 +5,7 @@ RUN apt-get -qy install build-essential openssl ldc dub libssl-dev zlib1g-dev ll
 
 RUN mkdir /usr/src/app
 
-ADD archttp_example /usr/src/app
+ADD serverino_example /usr/src/app
 
 WORKDIR /usr/src/app
 
