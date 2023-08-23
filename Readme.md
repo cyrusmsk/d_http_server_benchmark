@@ -21,6 +21,7 @@ Command to run:
 Results of the run for each framework is available in result folder.
 
 This is tables:
+
 for 64 concurrent connections
 
 |    Parameter |     Cgi |   Handy | Lighttp | Serverino | Archttp |
@@ -31,7 +32,7 @@ for 64 concurrent connections
 |  Latency 95% | 1.93 ms | 3.64 ms | 3.99 ms |  431. us  | 3.03 ms |
 |  Latency 99% | 3.98 ms | 4.47 ms | 4.63 ms |  2.03 ms  | 4.46 ms |
 
-for 512 cincurrent connections
+for 512 concurrent connections
 
 |    Parameter |     Cgi |   Handy | Lighttp | Serverino | Archttp |
 | :----------- | ------: | ------: | ------: | --------: | ------: |
@@ -43,3 +44,5 @@ for 512 cincurrent connections
 
 ## Credits
 * [Bombardier](https://github.com/codesenberg/bombardier)
+* [web-benchmark project](https://github.com/the-benchmarker/web-frameworks)
+* [Tomas httpbench](https://github.com/tchaloupka/httpbench)
