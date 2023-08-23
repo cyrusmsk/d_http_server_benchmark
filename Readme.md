@@ -1,4 +1,6 @@
-# Examples for wev frameworks in D
+# Examples for web frameworks in D
+
+Most popular D HTTP frameworks with simple benchmark
 
 ## Motivation
 This repo is used to test code locally and then send PR to https://github.com/the-benchmarker/web-frameworks
@@ -10,7 +12,6 @@ It is possible to run locally - but be aware of dflags-ldc option for LTO.
 Most of the tests were done on M1 machine.
 
 # Alternative run
-
 Because some frameworks have problems with 'wrk' tool, for this repo it was used 'bambardier' tool.
 All runs were done with 'ulimit -n 1024'
 
