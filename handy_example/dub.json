@@ -4,7 +4,7 @@
 	],
 	"copyright": "Copyright © 2023, Sergei Giniatulin",
 	"dependencies": {
-		"handy-httpd": "~>7.9.3"
+		"handy-httpd": "~>7.10.2"
 	},
     "dflags-ldc": ["-mcpu=native", "-flto=thin", "-flto-binary=/usr/lib/LLVMgold.so"],
 	"description": "A minimal D application.",

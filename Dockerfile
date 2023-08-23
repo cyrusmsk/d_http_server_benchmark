@@ -5,11 +5,13 @@ RUN apt-get -qy install build-essential openssl ldc dub libssl-dev zlib1g-dev ll
 
 RUN mkdir /usr/src/app
 
-ADD serverino_example /usr/src/app
+ADD serverino /usr/src/app/serverino
+ADD local_example /usr/src/app
 
 WORKDIR /usr/src/app
 
 ENV DC=ldc2
+RUN dub add-local serverino
 RUN dub build -b release-nobounds --compiler=ldc2
 
 FROM debian:bookworm
