@@ -3,7 +3,7 @@ import std.algorithm: startsWith;
 
 void main() {
     ServerConfig cfg = ServerConfig.defaultValues();
-    cfg.workerPoolSize = 100;
+    cfg.workerPoolSize = 8;
     cfg.hostname = "0.0.0.0";
     cfg.port = 3000;
 

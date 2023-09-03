@@ -1,9 +1,8 @@
 import archttp;
-import cpuid.unified;
 
 void main(string[] args)
 {
-    Archttp app  = new Archttp(threads);
+    Archttp app  = new Archttp(4);
 
     app.get("/", (HttpRequest req, HttpResponse res) {
         res.send("");
