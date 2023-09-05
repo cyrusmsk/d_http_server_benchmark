@@ -5,6 +5,7 @@ import std.datetime: Duration, seconds;
 import std.parallelism: totalCPUs;
 import std.array: split;
 import std.algorithm: startsWith;
+import std.stdio: writeln;
 
 mixin ServerinoMain;
 
@@ -12,10 +13,10 @@ mixin ServerinoMain;
 {
 	return ServerinoConfig
 		.create()
-        .setHttpTimeout(10.seconds)
+        .setHttpTimeout(15.seconds)
         .enableKeepAlive(180.seconds)
    		.addListener("0.0.0.0", 3000)
-		.setWorkers(2*totalCPUs);
+		.setWorkers(totalCPUs);
 }
 
 @endpoint void hello(Request req, Output output) {
