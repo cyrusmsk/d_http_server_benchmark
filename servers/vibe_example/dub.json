@@ -1,0 +1,14 @@
+{
+	"authors": [
+		"Serg"
+	],
+	"copyright": "Copyright © 2023, Serg",
+	"dependencies": {
+		"vibe-d:http": "~>0.9.7"
+	},
+    "versions": ["VibeHighEventPriority","VibeDisableCommandLineParsing"],
+    "dflags-ldc": ["-mcpu=native"],
+	"description": "A simple vibe.d server application.",
+	"license": "proprietary",
+	"name": "server"
+}
