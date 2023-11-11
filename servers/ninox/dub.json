@@ -1,0 +1,12 @@
+{
+	"authors": [
+		"Serg"
+	],
+	"copyright": "Copyright © 2023, Serg",
+	"dependencies": {
+		"ninox-d_web": "~>1.2.2"
+	},
+	"description": "A minimal D application.",
+	"license": "proprietary",
+	"name": "server"
+}

@@ -1,0 +1,13 @@
+{
+	"authors": [
+		"Sergei Giniatulin"
+	],
+	"copyright": "Copyright © 2023, Sergei Giniatulin",
+	"dependencies": {
+		"lighttp": "~>0.5.4"
+	},
+    "dflags-ldc": ["-mcpu=native"],
+	"description": "A minimal D application.",
+	"license": "proprietary",
+	"name": "server"
+}

@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/archttp_example
+archttp_example.so
+archttp_example.dylib
+archttp_example.dll
+archttp_example.a
+archttp_example.lib
+archttp_example-test-*
+*.exe
+*.o
+*.obj
+*.lst
