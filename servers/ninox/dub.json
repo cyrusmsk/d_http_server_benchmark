@@ -4,7 +4,7 @@
 	],
 	"copyright": "Copyright © 2023, Serg",
 	"dependencies": {
-		"ninox-d_web": "~>1.2.2"
+		"ninox-d_web": "~>1.2.3"
 	},
 	"description": "A minimal D application.",
 	"license": "proprietary",

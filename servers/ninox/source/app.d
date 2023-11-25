@@ -1,5 +1,5 @@
 import ninox.web;
-import std.socket : InternetAddress;
+import std.socket;
 //import std.datetime : dur;
 
 mixin NinoxWebMain!app;
