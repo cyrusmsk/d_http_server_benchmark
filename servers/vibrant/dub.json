@@ -2,11 +2,10 @@
 	"authors": [
 		"Sergei Giniatulin"
 	],
-	"copyright": "Copyright © 2023, Sergei Giniatulin",
+	"copyright": "Copyright © 2024, Sergei Giniatulin",
 	"dependencies": {
-		"arsd-official:cgi": "~>11.3.0"
+		"vibrance-z": "~>0.3.1"
 	},
-    "dflags-ldc": ["-mcpu=native"],
 	"description": "A minimal D application.",
 	"license": "proprietary",
 	"name": "server"
