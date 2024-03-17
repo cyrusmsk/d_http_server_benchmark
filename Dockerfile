@@ -5,12 +5,12 @@ RUN apt-get -qy install build-essential openssl ldc dub libssl-dev zlib1g-dev
 
 RUN mkdir /usr/src/app
 
-ADD servers/ninox /usr/src/app
+ADD servers/lighttp /usr/src/app
 
 WORKDIR /usr/src/app
 
 ENV DC=ldc2
-RUN dub build -b release-nobounds --compiler=ldc2
+RUN dub build -b release-nobounds --compiler=ldc2 --force
 
 FROM debian:bookworm
 

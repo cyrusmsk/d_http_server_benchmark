@@ -4,9 +4,12 @@ import std.parallelism: totalCPUs;
 
 void main() {
     ServerConfig cfg = ServerConfig.defaultValues();
-    cfg.workerPoolSize = totalCPUs;
+    cfg.workerPoolSize = 100;
+    cfg.connectionQueueSize = 10000;
+    cfg.requestQueueSize = 1000;
     cfg.hostname = "0.0.0.0";
     cfg.port = 3000;
+    cfg.enableWebSockets = false;
 
     import slf4d;
     import slf4d.default_provider;

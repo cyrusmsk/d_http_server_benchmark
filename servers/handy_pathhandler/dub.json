@@ -4,9 +4,9 @@
 	],
 	"copyright": "Copyright © 2023, Sergei Giniatulin",
 	"dependencies": {
-		"lighttp": "~>0.5.4",
-        "libasync": "~master"
+		"handy-httpd": "~>8.0.0"
 	},
+    "dflags-ldc": ["-mcpu=native"],
 	"description": "A minimal D application.",
 	"license": "proprietary",
 	"name": "server"

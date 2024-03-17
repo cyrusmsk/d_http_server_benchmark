@@ -1,0 +1,16 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/oceandrift
+oceandrift.so
+oceandrift.dylib
+oceandrift.dll
+oceandrift.a
+oceandrift.lib
+oceandrift-test-*
+*.exe
+*.pdb
+*.o
+*.obj
+*.lst
