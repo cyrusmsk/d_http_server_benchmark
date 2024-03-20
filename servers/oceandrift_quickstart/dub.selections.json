@@ -1,0 +1,9 @@
+{
+	"fileVersion": 1,
+	"versions": {
+		"httparsed": "1.2.1",
+		"oceandrift-http": "0.24.312",
+		"oceandrift-validation": "0.2.1",
+		"socketplate": "0.30.0"
+	}
+}

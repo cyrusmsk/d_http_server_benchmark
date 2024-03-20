@@ -3,7 +3,7 @@
 		"Sergei Giniatulin"
 	],
 	"dependencies": {
-		"serverino": "~>0.6.2"
+		"serverino": "~>0.6.3"
 	},
     "dflags-ldc": ["-mcpu=native"],
 	"license": "proprietary",
