@@ -16,7 +16,7 @@ mixin ServerinoMain;
         .setHttpTimeout(15.seconds)
         .enableKeepAlive(180.seconds)
    		.addListener("0.0.0.0", 3000)
-		.setWorkers(8);
+		.setWorkers(25);
 }
 
 @endpoint void hello(Request req, Output output) {

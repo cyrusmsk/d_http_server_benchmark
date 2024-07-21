@@ -1,0 +1,16 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/hunt_server
+hunt_server.so
+hunt_server.dylib
+hunt_server.dll
+hunt_server.a
+hunt_server.lib
+hunt_server-test-*
+*.exe
+*.pdb
+*.o
+*.obj
+*.lst

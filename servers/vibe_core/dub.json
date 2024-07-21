@@ -1,0 +1,14 @@
+{
+	"authors": [
+		"Serg"
+	],
+	"copyright": "Copyright © 2023, Serg",
+	"dependencies": {
+		"vibe-core": "~>2.8.5"
+	},
+    "versions": ["VibeManualMemoryManagement", "VibeHighEventPriority","VibeDisableCommandLineParsing"],
+    "dflags-ldc": ["-mcpu=native"],
+	"description": "A simple vibe-core server application.",
+	"license": "proprietary",
+	"name": "server"
+}

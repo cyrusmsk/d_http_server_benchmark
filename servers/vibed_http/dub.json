@@ -1,0 +1,24 @@
+{
+	"authors": [
+		"Serg"
+	],
+	"copyright": "Copyright © 2023, Serg",
+	"dependencies": {
+		"vibe-http": "~>1.1.0",
+		"vibe-stream:tls": "~>1.1.0"
+	},
+	"description": "A simple vibe.d server application.",
+	"dflags-ldc": [
+		"-mcpu=native"
+	],
+    "subConfigurations": {
+        "vibe-stream:tls": "notls"
+    },
+	"license": "proprietary",
+	"name": "server",
+	"versions": [
+		"VibeManualMemoryManagement",
+		"VibeHighEventPriority",
+		"VibeDisableCommandLineParsing"
+	]
+}

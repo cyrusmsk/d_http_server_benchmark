@@ -2,10 +2,12 @@
 	"authors": [
 		"Sergei Giniatulin"
 	],
+	"copyright": "Copyright © 2024, Sergei Giniatulin",
 	"dependencies": {
-		"serverino": "~>0.7.9"
+		"hunt-http": "~>0.8.2"
 	},
     "dflags-ldc": ["-mcpu=native"],
+	"description": "Hunt server implementation",
 	"license": "proprietary",
 	"name": "server"
 }
