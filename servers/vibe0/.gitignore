@@ -1,0 +1,17 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/vibe_example
+vibe_example.so
+vibe_example.dylib
+vibe_example.dll
+vibe_example.a
+vibe_example.lib
+vibe_example-test-*
+openssl*
+*.exe
+*.pdb
+*.o
+*.obj
+*.lst

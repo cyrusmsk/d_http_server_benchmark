@@ -1,0 +1,22 @@
+{
+	"authors": [
+		"Serg"
+	],
+	"copyright": "Copyright © 2025, Serg",
+	"dependencies": {
+		"vibe-0": "~>1.2.0",
+        "openssl": {"path": "./openssl"}
+	},
+	"description": "A simple vibe.0 server application.",
+	"license": "proprietary",
+	"name": "server",
+	"versions": [
+		"VibeCustomMain",
+		"DisableDebugger",
+		"VibeNoDebug",
+        "TLSGC",
+        "VibeRequestDebugger",
+        "VibeDebugCatchAll",
+        "DeimosOpenSSL_3_0"
+	],
+}
