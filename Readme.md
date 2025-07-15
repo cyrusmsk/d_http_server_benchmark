@@ -12,8 +12,8 @@ It is possible to run locally - but be aware of dflags-ldc option for LTO.
 Currently only local runs are tested.
 
 # Alternative run
-Because some frameworks have problems with 'wrk' tool, for this repo it was used 'bambardier' tool.
-All runs were done with 'ulimit -n 1024'.
+Because some frameworks have problems with 'wrk' tool, for this repo it was used 'bombardier' tool.
+All runs were done with 'ulimit -n 4096'.
 
 Results of the run for each framework is available in result folder.
 
