@@ -1,6 +1,7 @@
 {
 	"fileVersion": 1,
 	"versions": {
-		"serverino": "0.7.18"
+		"openssl": "3.3.4",
+		"prism": "2.1.5"
 	}
 }

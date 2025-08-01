@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/prism
+prism.so
+prism.dylib
+prism.dll
+prism.a
+prism.lib
+prism-test-*
+*.exe
+*.o
+*.obj
+*.lst

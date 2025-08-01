@@ -1,9 +1,11 @@
 {
-  "authors": ["Sergei Giniatulin"],
-  "dependencies": {
-    "serverino": "~>0.7.9"
-  },
-  "dflags-ldc": ["-mcpu=native"],
-  "license": "proprietary",
-  "name": "server"
+	"authors": [
+		"Sergei Giniatulin"
+	],
+	"dependencies": {
+		"serverino": "~>0.7.18"
+	},
+    "dflags-ldc": ["-mcpu=native"],
+	"license": "proprietary",
+	"name": "server"
 }
