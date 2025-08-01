@@ -22,8 +22,7 @@ void main()
 	runApplication();
 }
 
-void runServer() nothrow
-{
+void runServer() nothrow {
     try {
         auto settings = new HTTPServerSettings;
         settings.options |= HTTPServerOption.reusePort;

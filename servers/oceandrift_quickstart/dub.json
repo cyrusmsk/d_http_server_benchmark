@@ -1,12 +1,10 @@
 {
-	"authors": [
-		"Sergei Giniatulin"
-	],
-	"copyright": "Copyright © 2024, Sergei Giniatulin",
-	"dependencies": {
-		"oceandrift-http": "~>0.24.312"
-	},
-	"description": "Oceandrift example",
-	"license": "proprietary",
-	"name": "server"
+  "authors": ["Sergei Giniatulin"],
+  "copyright": "Copyright © 2024, Sergei Giniatulin",
+  "dependencies": {
+    "oceandrift-http": "~>0.24.312"
+  },
+  "description": "Oceandrift quick example",
+  "license": "proprietary",
+  "name": "server"
 }

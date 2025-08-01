@@ -1,6 +1,5 @@
 import vibe.core.core : runApplication, runWorkerTask, setupWorkerThreads;
 import vibe.http.server;
-import std.parallelism: totalCPUs;
 import std.algorithm: startsWith;
 
 void handleRequest(scope HTTPServerRequest req, scope HTTPServerResponse res)
@@ -17,18 +16,16 @@ void handleRequest(scope HTTPServerRequest req, scope HTTPServerResponse res)
 
 void main()
 {
-    setupWorkerThreads(2*totalCPUs);
-    runWorkerTask(&runServer);
-	runApplication();
-}
-
-void runServer() nothrow
-{
     try {
         auto settings = new HTTPServerSettings;
         settings.options |= HTTPServerOption.reusePort;
         settings.port = 3000;
         settings.bindAddresses = ["0.0.0.0"];
         listenHTTP(settings, &handleRequest);
-    } catch (Exception e) assert(false, e.msg);
+    }
+    catch (Exception e) {
+        assert(false, e.msg);
+    }
+	runApplication();
 }
+

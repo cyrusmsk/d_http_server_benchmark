@@ -2,15 +2,15 @@
   "authors": ["Serg"],
   "copyright": "Copyright © 2023, Serg",
   "dependencies": {
-    "vibe-core": "~>2.8.5"
+    "vibe-d:http": "~>0.10.2"
   },
+  "description": "Vibe.d (singlecore) example",
+  "dflags-ldc": ["-mcpu=native"],
+  "license": "proprietary",
+  "name": "server",
   "versions": [
     "VibeManualMemoryManagement",
     "VibeHighEventPriority",
     "VibeDisableCommandLineParsing"
-  ],
-  "dflags-ldc": ["-mcpu=native"],
-  "description": "Vibe-core example",
-  "license": "proprietary",
-  "name": "server"
+  ]
 }
