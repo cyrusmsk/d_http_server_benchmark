@@ -1,12 +1,10 @@
 {
-	"authors": [
-		"Sergei Giniatulin"
-	],
-	"copyright": "Copyright © 2023, Sergei Giniatulin",
-	"dependencies": {
-		"archttp": "~>1.1.1",
-	},
-	"description": "A minimal D application.",
-	"license": "proprietary",
-	"name": "server"
+  "authors": ["Sergei Giniatulin"],
+  "copyright": "Copyright © 2023, Sergei Giniatulin",
+  "dependencies": {
+    "archttp": "~>1.1.1"
+  },
+  "description": "Archttp example",
+  "license": "proprietary",
+  "name": "server"
 }

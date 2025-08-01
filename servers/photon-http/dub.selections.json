@@ -1,0 +1,9 @@
+{
+	"fileVersion": 1,
+	"versions": {
+		"photon": "0.12.1",
+		"photon-http": "0.5.3",
+		"sharded-map": "2.7.0",
+		"xbuf": "0.1.3"
+	}
+}

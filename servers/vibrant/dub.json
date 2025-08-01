@@ -1,12 +1,10 @@
 {
-	"authors": [
-		"Sergei Giniatulin"
-	],
-	"copyright": "Copyright © 2024, Sergei Giniatulin",
-	"dependencies": {
-		"vibrance-z": "~>0.3.1"
-	},
-	"description": "A minimal D application.",
-	"license": "proprietary",
-	"name": "server"
+  "authors": ["Sergei Giniatulin"],
+  "copyright": "Copyright © 2024, Sergei Giniatulin",
+  "dependencies": {
+    "vibrance-z": "~>0.3.1"
+  },
+  "description": "Vibrant example",
+  "license": "proprietary",
+  "name": "server"
 }

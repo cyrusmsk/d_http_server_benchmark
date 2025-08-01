@@ -1,0 +1,11 @@
+{
+  "authors": ["Sergei Giniatulin"],
+  "copyright": "Copyright © 2025, Sergei Giniatulin",
+  "dependencies": {
+    "photon": "~>0.12.1",
+    "photon-http": "~>0.5.3"
+  },
+  "description": "Photon server",
+  "license": "proprietary",
+  "name": "server"
+}
