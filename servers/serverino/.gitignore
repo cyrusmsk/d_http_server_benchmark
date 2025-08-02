@@ -9,7 +9,9 @@ server.dll
 server.a
 server.lib
 server-test-*
+openssl*
 *.exe
+*.pdb
 *.o
 *.obj
 *.lst

@@ -1,12 +1,10 @@
 {
-	"authors": [
-		"Sergei Giniatulin"
-	],
-	"copyright": "Copyright © 2023, Sergei Giniatulin",
-	"dependencies": {
-		"prism": "2.1.5"
-	},
-	"description": "A minimal D application.",
-	"license": "proprietary",
-	"name": "server"
+  "authors": ["Sergei Giniatulin"],
+  "copyright": "Copyright © 2023, Sergei Giniatulin",
+  "dependencies": {
+    "prism": "2.1.5"
+  },
+  "description": "Prism example",
+  "license": "proprietary",
+  "name": "server"
 }

@@ -9,7 +9,6 @@ class HelloWorldProcessor : HttpProcessor {
     this(Socket sock){ super(sock); }
 
     override void handle(HttpRequest req) {
-        writeln(req);
         respondWith("Hello, world!", 200, headers);
     }
 }
@@ -27,7 +26,7 @@ void server_worker(Socket client) {
 void server() {
     Socket server = new TcpSocket();
     server.setOption(SocketOptionLevel.SOCKET, SocketOption.REUSEADDR, true);
-    server.bind(new InternetAddress("0.0.0.0", 8080));
+    server.bind(new InternetAddress("0.0.0.0", 3000));
     server.listen(1000);
 
     debug writeln("Started server");

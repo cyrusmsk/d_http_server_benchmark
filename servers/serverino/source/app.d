@@ -2,10 +2,8 @@ module app;
 
 import serverino;
 import std.datetime: Duration, seconds;
-import std.parallelism: totalCPUs;
 import std.array: split;
 import std.algorithm: startsWith;
-import std.stdio: writeln;
 
 mixin ServerinoMain;
 
