@@ -1,7 +1,7 @@
 {
   "authors": ["Sergei Giniatulin"],
   "dependencies": {
-    "serverino": "~>0.7.18"
+    "serverino": "~>0.7.19"
   },
   "dflags-ldc": ["-mcpu=native"],
   "description": "Serverino example",
