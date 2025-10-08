@@ -1,9 +1,9 @@
 {
   "authors": ["Serg"],
-  "copyright": "Copyright © 2023, Serg",
+  "copyright": "Copyright © 2025, Serg",
   "dependencies": {
-    "vibe-http": "~>1.1.0",
-    "vibe-stream:tls": "~>1.1.0"
+    "vibe-http": "~>1.3.1",
+    "vibe-stream:tls": "~>1.3.0"
   },
   "description": "Vibe.d (multicore) example",
   "dflags-ldc": ["-mcpu=native"],
