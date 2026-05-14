@@ -1,0 +1,12 @@
+{
+	"authors": [
+		"Sergei Giniatulin"
+	],
+	"copyright": "Copyright © 2026, Sergei Giniatulin",
+	"dependencies": {
+		"ae": "~>0.0.3870"
+	},
+	"description": "ae server example",
+	"license": "MIT",
+	"name": "server"
+}
